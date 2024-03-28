@@ -1,4 +1,4 @@
-def main(list1):
+def main(l):
     """
     A list of units and zeros with a length of five is given. Replace zero with False.
     Args:
@@ -6,4 +6,6 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    l[0]=False
+    return l
+print(main([11,23,45,5]))

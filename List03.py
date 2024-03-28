@@ -1,4 +1,4 @@
-def main(list1,list2):
+def main(l1,l2):
     """
     lists list1 and list2 are given. Add them (combine) and return.
     Args:
@@ -7,4 +7,5 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
-    return
+    return l1+l2
+print(main(12,34))

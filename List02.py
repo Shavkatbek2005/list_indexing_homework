@@ -1,4 +1,4 @@
-def main(list1):
+def main(l):
     """
     A list of several elements is given. Return the first item.
     Args:
@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    return l[0]
+print(main('shavkat'))
